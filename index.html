@@ -2,10 +2,159 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Link to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Smooth scrolling for navigation links */
+    html {
+      scroll-behavior: smooth; /* Enables smooth scrolling */
+    }
+
+    /* Button styling */
+    .button {
+      background-color: #28a745; /* Green background */
+      color: white; /* White text */
+      padding: 10px 20px; /* Add padding */
+      text-decoration: none; /* Remove underline */
+      border-radius: 5px; /* Rounded corners */
+      display: inline-block; /* Inline-block for proper spacing */
+    }
+
+    /* Button hover effect */
+    .button:hover {
+      background-color: #218838; /* Darker green on hover */
+    }
+
+    /* LinkedIn button styling */
+    .linkedin-button {
+      background-color: #007BFF; /* Blue background */
+      color: white; /* White text */
+      padding: 10px 20px; /* Add padding */
+      text-decoration: none; /* Remove underline */
+      border-radius: 5px; /* Rounded corners */
+      display: inline-block; /* Inline-block for proper spacing */
+    }
+
+    /* LinkedIn button hover effect */
+    .linkedin-button:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+    }
+
+    /* Navigation styling */
+    nav {
+      background-color: #333; /* Match footer background color */
+      color: white; /* Match footer text color */
+      padding: 10px; /* Add padding */
+      text-align: center; /* Center-align the navigation links */
+    }
+
+    nav a {
+      color: white; /* White text to match footer */
+      text-decoration: none; /* Remove underline */
+      margin: 0 10px; /* Add spacing between links */
+      font-weight: bold; /* Make links bold */
+    }
+
+    nav a:hover {
+      text-decoration: underline; /* Underline on hover */
+    }
+
+    /* Typography enhancements */
+    h1, h2 {
+      line-height: 1.5; /* Add line spacing */
+    }
+
+    h1 {
+      font-size: 2.5em; /* Larger font size for main heading */
+    }
+
+    h2 {
+      font-size: 2em; /* Larger font size for subheadings */
+    }
+
+    p {
+      line-height: 1.6; /* Improve readability with line spacing */
+    }
+
+    /* Footer styling */
+    footer {
+      background-color: #333; /* Dark background */
+      color: white; /* White text */
+      text-align: center; /* Center-align text */
+      padding: 10px 0; /* Add padding */
+      margin-top: 20px; /* Add spacing above footer */
+    }
+
+    footer a {
+      color: #007BFF; /* Blue link color */
+      text-decoration: none; /* Remove underline */
+    }
+
+    footer a:hover {
+      text-decoration: underline; /* Underline on hover */
+    }
+  </style>
 </head>
-<body>
-  <!-- Add your HTML content here -->
+<body style="font-family: 'Poppins', sans-serif; font-size: 16px; background-color: #f4f4f9;">
+  <!-- Navigation Pane -->
+  <nav>
+    <!-- Navigation links to different sections -->
+    <a href="#hero">Home</a> |
+    <a href="#bio">About Me</a> |
+    <a href="#skills">My Skills</a>
+  </nav>
+  
+  <!-- Hero Section -->
+  <section id="hero">
+    <!-- Add an image above the header -->
+    <img src="img/bracha.jpg" alt="A picture of me" style="width: 250px; border-radius: 50%;">
+    <h1>Hi, I'm Bracha Barad!</h1>
+    <p>Welcome to my portfolio. I love designing creative websites!</p>
+    <!-- Update buttons to be on separate rows and fit text length -->
+    <div style="margin-bottom: 10px;">
+      <a href="#hero" class="button" style="display: inline-block;">My First Website! TBD</a>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <a href="#hero" class="button" style="display: inline-block;">Project No 2 - TBD</a>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <a href="#hero" class="button" style="display: inline-block;">Another Amazing Design - TBD</a>
+    </div>
+  </section>
+
+  <!-- Bio Section -->
+  <section id="bio">
+    <h2>About Me</h2>
+    <p>I’m a beginner web designer exploring the world of creativity and code. I enjoy turning ideas into beautiful designs.
+      <br>These are some of my favorite things:
+    </p>
+    <!-- Add images from the img library -->
+    <img src="img/cats.jpg" alt="Cute cats" style="height: 200px; margin: 5px;">
+    <img src="img/beach.webp" alt="Beautiful beach" style="height: 200px; margin: 5px;">
+    <img src="img/images.jpeg" alt="Creative designs" style="height: 200px; margin: 5px;">
+    <!-- Add spacing below the images -->
+    <br><br>
+    <!-- Move the LinkedIn button below the images -->
+    <a href="https://www.linkedin.com/in/b-barad-data-analyst" class="linkedin-button" target="_blank">My LinkedIn Page</a>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <!-- Add a computer icon before HTML -->
+      <li>💻 HTML | CSS | JavaScript</li>
+      <!-- Add a heart icon before Friendly -->
+      <li>❤️ Friendly | Fast Learner | Team Player</li>
+    </ul>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <!-- Contact information with an email link -->
+    <p>Contact me at <a href="mailto:brachabarad@gmail.com">brachabarad@gmail.com</a></p>
+  </footer>
 </body>
 </html>

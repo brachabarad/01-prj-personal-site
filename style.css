@@ -1,1 +1,99 @@
-/* Add you CSS here */
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif; /* Rounded playful font */
+  margin: 0;
+  padding: 0;
+  background-color: #fef9f9; /* Light pastel background */
+  color: #333; /* Dark text for readability */
+  text-align: center; /* Center-align text */
+}
+
+/* Navigation Links */
+nav a {
+  text-decoration: none; /* Remove underline */
+  color: #ff6f61; /* Coral color */
+  font-weight: bold;
+  margin: 0 10px; /* Add spacing between links */
+}
+
+nav a:hover {
+  color: #ffb6c1; /* Light coral on hover */
+}
+
+/* Hero Section */
+#hero {
+  background-color: #ffcccb; /* Light pink background */
+  padding: 50px 20px; /* Add space around content */
+  border-bottom: 5px solid #ffb6c1; /* Decorative border */
+  color: #333; /* Dark text for contrast */
+}
+
+#hero img {
+  width: 150px;
+  border-radius: 50%; /* Make the image circular */
+}
+
+#hero h1 {
+  font-size: 2.5em; /* Large heading */
+  color: #ff6f61; /* Bright coral color */
+}
+
+#hero p {
+  font-size: 1.2em; /* Slightly larger text */
+  color: #555; /* Softer text color */
+}
+
+/* Button Styles */
+.button {
+  display: inline-block; /* Make it behave like a button */
+  background-color: #ff6f61; /* Coral color */
+  color: white; /* White text */
+  padding: 10px 20px; /* Add space inside the button */
+  border-radius: 20px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+  margin-top: 20px; /* Add space above the button */
+}
+
+.button:hover {
+  background-color: #ffb6c1; /* Light coral on hover */
+}
+
+/* Bio Section */
+#bio {
+  background-color: #fff; /* White background */
+  padding: 40px 20px;
+  border-bottom: 5px solid #ffcccb; /* Decorative border */
+}
+
+#bio h2 {
+  font-size: 2em;
+  color: #ff6f61;
+}
+
+#bio p {
+  font-size: 1em;
+  color: #666;
+}
+
+/* Skills Section */
+#skills {
+  background-color: #ffb6c1; /* Light coral background */
+  padding: 40px 20px;
+}
+
+#skills h2 {
+  font-size: 2em;
+  color: #fff; /* White text for contrast */
+}
+
+#skills ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+#skills li {
+  font-size: 1.2em;
+  color: #fff;
+  margin: 10px 0; /* Add space between items */
+}
